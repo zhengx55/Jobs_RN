@@ -1,7 +1,7 @@
 import { Stack, useRouter } from "expo-router";
 import { useState } from "react";
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
-import { COLORS, SIZES, icons } from "../constants";
+import { COLORS, SIZES, icons, images } from "../constants";
 import {
   Nearbyjobs,
   Popularjobs,
@@ -21,7 +21,7 @@ const Home = () => {
             <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={icons.profile} dimension="60%" />
+            <ScreenHeaderBtn iconUrl={images.profile} dimension="60%" />
           ),
           headerTitle: "",
         }}
